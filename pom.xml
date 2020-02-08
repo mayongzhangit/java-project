@@ -7,7 +7,10 @@
   <groupId>com.myz</groupId>
   <artifactId>java-base-parent</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>pom</packaging>
+    <modules>
+        <module>netty-parent</module>
+    </modules>
+    <packaging>pom</packaging>
 
   <name>java-base-parent</name>
   <url>http://www.example.com</url>
