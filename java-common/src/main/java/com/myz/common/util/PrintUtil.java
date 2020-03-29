@@ -1,4 +1,4 @@
-package com.myz.netty.server.util;
+package com.myz.common.util;
 
 
 import java.text.SimpleDateFormat;

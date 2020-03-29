@@ -6,6 +6,7 @@ import io.netty.channel.ChannelFuture;
 import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
+import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
 
 import java.net.InetSocketAddress;
@@ -16,7 +17,7 @@ import java.net.InetSocketAddress;
  * @date 2020/2/8 10:28 PM
  * @email 2641007740@qq.com
  */
-public class ThirdServer {
+public class ThirdChatServer {
 
     public static void main(String[] args) {
 
@@ -26,8 +27,8 @@ public class ThirdServer {
             ServerBootstrap serverBootstrap = new ServerBootstrap();
             serverBootstrap.group(bossGroup,workGroup)
                     .channel(NioServerSocketChannel.class)
-                    .handler(new LoggingHandler())
-                    .childHandler(null);
+                    .handler(new LoggingHandler(LogLevel.INFO))
+                    .childHandler(new ThirdServerDelimitChannelInitializer());
 
             ChannelFuture channelFuture = serverBootstrap.bind(new InetSocketAddress(8899)).sync();
             PrintUtil.print("third server started");

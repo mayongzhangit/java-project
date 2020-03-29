@@ -1,7 +1,6 @@
 package com.myz.netty.server.secondexample;
 
-import com.myz.netty.server.util.PrintUtil;
-import io.netty.channel.ChannelHandler;
+import com.myz.common.util.PrintUtil;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 
@@ -13,11 +12,12 @@ import java.util.UUID;
  * @date 2020/2/8 9:30 PM
  * @email 2641007740@qq.com
  */
-public class SecondStringHandler extends SimpleChannelInboundHandler<String> {
+public class SecondServerStringHandler extends SimpleChannelInboundHandler<String> {
 
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, String msg) throws Exception {
-        ctx.channel().writeAndFlush("from server "+ UUID.randomUUID().toString());
+        PrintUtil.print(msg);
+        ctx.channel().writeAndFlush("[second server said] "+ UUID.randomUUID().toString());
     }
 
     @Override

@@ -1,9 +1,8 @@
 package com.myz.netty.server.firstexample;
 
-import com.myz.netty.server.util.PrintUtil;
+import com.myz.common.util.PrintUtil;
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
-import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 import io.netty.handler.codec.http.*;
@@ -16,7 +15,7 @@ import io.netty.util.CharsetUtil;
  * @date 2020/2/8 4:31 PM
  * @email 2641007740@qq.com
  */
-public class FirstHttpHandler extends SimpleChannelInboundHandler<HttpObject> {
+public class FirstServerHttpHandler extends SimpleChannelInboundHandler<HttpObject> {
     /**
      * @Description: 业务回调最重要的方法
      * 可以通过curl或者浏览器当做客户端来测试了，当然uri加上没有用

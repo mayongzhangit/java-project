@@ -1,4 +1,4 @@
-package com.myz.netty.server.secondexample;
+package com.myz.netty.client.secondexample;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelFuture;
@@ -24,7 +24,7 @@ public class SecondClient {
             Bootstrap bootstrap = new Bootstrap();
             bootstrap.group(group)
                     .channel(NioSocketChannel.class)
-                    .handler(null)// 不需要childHandler，每个客户端自己处理连接和业务逻辑  以为只有一个EventLoopGroup
+                    .handler(new SecondClientLengthFrameInitializer())// 不需要childHandler，每个客户端自己处理连接和业务逻辑  以为只有一个EventLoopGroup
                     ;
             ChannelFuture channelFuture = bootstrap.connect(new InetSocketAddress("localhost", 8899)).sync();
 
