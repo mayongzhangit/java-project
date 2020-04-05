@@ -9,15 +9,26 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>java-common</artifactId>
+    <artifactId>nio-parent</artifactId>
+    <packaging>pom</packaging>
 
-    <name>java-common</name>
+    <name>nio-parent</name>
     <!-- FIXME change it to the project's website -->
     <url>http://www.example.com</url>
+    <modules>
+        <module>nio-basic</module>
+        <module>nio-api</module>
+        <module>nio-client</module>
+        <module>nio-server</module>
+    </modules>
+
 
 
     <dependencies>
-
+        <dependency>
+            <groupId>com.myz</groupId>
+            <artifactId>java-common</artifactId>
+            <version>${project.version}</version>
+        </dependency>
     </dependencies>
-
 </project>

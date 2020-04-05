@@ -7,5 +7,10 @@
     <file url="file://$PROJECT_DIR$/netty-parent/netty-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/netty-parent/netty-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/netty-parent/netty-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nio-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nio-parent/nio-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nio-parent/nio-basic" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nio-parent/nio-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nio-parent/nio-server" charset="UTF-8" />
   </component>
 </project>

@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eae5fd56-135c-4ec7-90de-97d07af6f062" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/nio-parent/nio-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nio-parent/nio-basic/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nio-parent/nio-basic/src/main/java/com/myz/com/myz/nio/basic/buffer/BufferDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nio-parent/nio-basic/src/main/java/com/myz/com/myz/nio/basic/buffer/BufferDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nio-parent/nio-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nio-parent/nio-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nio-parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-base-parent.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-common/target/classes/com/myz/common/util/PrintUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/java-common/target/classes/com/myz/common/util/PrintUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -12,6 +24,11 @@
     <ignored path="$PROJECT_DIR$/netty-parent/netty-client/target/" />
     <ignored path="$PROJECT_DIR$/java-common/target/" />
     <ignored path="$PROJECT_DIR$/netty-parent/netty-api/target/" />
+    <ignored path="$PROJECT_DIR$/nio-parent/target/" />
+    <ignored path="$PROJECT_DIR$/nio-parent/nio-basic/target/" />
+    <ignored path="$PROJECT_DIR$/nio-parent/nio-api/target/" />
+    <ignored path="$PROJECT_DIR$/nio-parent/nio-client/target/" />
+    <ignored path="$PROJECT_DIR$/nio-parent/nio-server/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,125 +45,84 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nio-parent/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="29" column="35" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nio-parent/nio-basic/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nio-parent/nio-basic/src/main/java/com/myz/com/myz/nio/basic/buffer/BufferDemo1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java">
+        <entry file="file://$PROJECT_DIR$/nio-parent/nio-basic/src/main/java/com/myz/com/myz/nio/basic/buffer/BufferDemo2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-384">
-              <caret line="143" column="29" selection-start-line="143" selection-start-column="12" selection-end-line="143" selection-end-column="29" />
+            <state relative-caret-position="172">
+              <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
               <folding>
-                <element signature="e#1811#1837#0" expanded="true" />
-                <element signature="e#1918#1943#0" expanded="true" />
-                <element signature="e#5521#5551#1" expanded="true" />
-                <element signature="e#6297#7035#0" expanded="true" />
-                <element signature="e#6695#7009#0" expanded="true" />
-                <element signature="e#7008#7009#0" expanded="true" />
-                <element signature="e#7034#7035#0" expanded="true" />
-                <element signature="e#7435#7465#0" expanded="true" />
-                <element signature="e#7586#7616#0" expanded="true" />
-                <element signature="e#8919#9085#0" expanded="true" />
-                <element signature="e#9084#9085#0" expanded="true" />
-                <element signature="e#9124#9154#0" expanded="true" />
-                <element signature="e#9626#9956#0" expanded="true" />
-                <element signature="e#9955#9956#0" expanded="true" />
-                <element signature="e#11013#11059#0" expanded="true" />
-                <element signature="e#11493#11494#0" expanded="true" />
-                <element signature="e#11528#11529#0" expanded="true" />
-                <element signature="e#11796#11797#0" expanded="true" />
-                <element signature="e#11825#11826#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/bootstrap/ServerBootstrapConfig.java">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/nio/Buffer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
+            <state relative-caret-position="120">
+              <caret line="355" column="24" selection-start-line="355" selection-start-column="24" selection-end-line="355" selection-end-column="24" />
               <folding>
-                <element signature="e#1157#1158#0" expanded="true" />
-                <element signature="e#1189#1190#0" expanded="true" />
+                <element signature="e#12489#12490#0" expanded="true" />
+                <element signature="e#12528#12529#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/bootstrap/AbstractBootstrap.java">
+        <entry file="file://$PROJECT_DIR$/nio-parent/nio-api/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="353" column="18" selection-start-line="353" selection-start-column="18" selection-end-line="353" selection-end-column="18" />
-              <folding>
-                <element signature="e#3460#3461#0" expanded="true" />
-                <element signature="e#3491#3492#0" expanded="true" />
-                <element signature="e#14434#14435#0" expanded="true" />
-                <element signature="e#14462#14463#0" expanded="true" />
-                <element signature="e#15052#15053#0" expanded="true" />
-                <element signature="e#15082#15083#0" expanded="true" />
-                <element signature="e#15133#15134#0" expanded="true" />
-                <element signature="e#15161#15162#0" expanded="true" />
-                <element signature="e#15408#15409#0" expanded="true" />
-                <element signature="e#15438#15439#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="399">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/channel/nio/NioEventLoopGroup.java">
+        <entry file="file://$PROJECT_DIR$/nio-parent/nio-client/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+            <state relative-caret-position="323">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/channel/MultithreadEventLoopGroup.java">
+        <entry file="file://$PROJECT_DIR$/nio-parent/nio-server/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="85" column="17" lean-forward="true" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
-              <folding>
-                <element signature="e#3118#3119#0" expanded="true" />
-                <element signature="e#3165#3166#0" expanded="true" />
-                <element signature="e#3343#3344#0" expanded="true" />
-                <element signature="e#3390#3391#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/util/concurrent/MultithreadEventExecutorGroup.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="136" column="24" lean-forward="true" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
-              <folding>
-                <element signature="e#5733#5734#0" expanded="true" />
-                <element signature="e#5770#5771#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/util/concurrent/EventExecutorChooserFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/bootstrap/Bootstrap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="264" column="32" selection-start-line="264" selection-start-column="25" selection-end-line="264" selection-end-column="32" />
-              <folding>
-                <element signature="e#11642#11643#0" expanded="true" />
-                <element signature="e#11671#11672#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="418">
+              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -154,8 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/bootstrap/BootstrapConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            <state relative-caret-position="190">
+              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
               <folding>
                 <element signature="e#969#970#0" expanded="true" />
                 <element signature="e#1001#1002#0" expanded="true" />
@@ -167,7 +143,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/bootstrap/AbstractBootstrapConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
+            <state relative-caret-position="532">
               <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
               <folding>
                 <element signature="e#1248#1249#0" expanded="true" />
@@ -195,6 +171,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>channelRegistered</find>
+      <find>java-common</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -203,8 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/netty-parent/netty-server/src/main/java/com/myz/netty/server/firstexample/FirstHttpServerHandler.java" />
-        <option value="$PROJECT_DIR$/netty-parent/netty-server/src/main/java/com/myz/netty/server/firstexample/FirstHttpChannelInitializer.java" />
         <option value="$PROJECT_DIR$/netty-parent/netty-server/src/main/java/com/myz/netty/server/util/PrintUtil.java" />
         <option value="$PROJECT_DIR$/netty-parent/netty-server/src/main/java/com/myz/netty/server/firstexample/FirstHttpHandler.java" />
         <option value="$PROJECT_DIR$/netty-parent/netty-server/src/main/java/com/myz/netty/server/secondexample/SecondStringHandler.java" />
@@ -249,6 +224,13 @@
         <option value="$PROJECT_DIR$/netty-parent/netty-server/src/main/java/com/myz/netty/server/sixthexample/SixthServerDecodeChannelInitializer.java" />
         <option value="$PROJECT_DIR$/netty-parent/netty-server/src/main/java/com/myz/netty/server/sixthexample/SixthServerPersonDecodeChannelInitializer.java" />
         <option value="$PROJECT_DIR$/netty-parent/netty-server/src/main/java/com/myz/netty/server/sixthexample/SixthServerPersonDecodeHandler.java" />
+        <option value="$PROJECT_DIR$/nio-parent/nio-server/pom.xml" />
+        <option value="$PROJECT_DIR$/nio-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/nio-parent/nio-api/pom.xml" />
+        <option value="$PROJECT_DIR$/nio-parent/nio-client/pom.xml" />
+        <option value="$PROJECT_DIR$/nio-parent/nio-basic/pom.xml" />
+        <option value="$PROJECT_DIR$/nio-parent/nio-basic/src/main/java/com/myz/com/myz/nio/basic/buffer/BufferDemo1.java" />
+        <option value="$PROJECT_DIR$/nio-parent/nio-basic/src/main/java/com/myz/com/myz/nio/basic/buffer/BufferDemo2.java" />
       </list>
     </option>
   </component>
@@ -301,188 +283,130 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="java-base-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-base-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="java-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-project" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="java-base-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-base-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="java-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-project" type="462c0819:PsiDirectoryNode" />
+              <item name="java-common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="java-base-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-base-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-base-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-base-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-client" type="462c0819:PsiDirectoryNode" />
+              <item name="java-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-project" type="462c0819:PsiDirectoryNode" />
+              <item name="java-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="java-base-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-base-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-project" type="462c0819:PsiDirectoryNode" />
+              <item name="nio-parent" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="java-base-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-base-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="java-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-project" type="462c0819:PsiDirectoryNode" />
+              <item name="nio-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="nio-api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="java-base-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-base-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-base-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-base-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-base-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-base-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="fifthexample" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-base-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-base-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-base-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-base-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-server" type="462c0819:PsiDirectoryNode" />
+              <item name="java-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-project" type="462c0819:PsiDirectoryNode" />
+              <item name="nio-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="nio-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="java-base-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-base-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-server" type="462c0819:PsiDirectoryNode" />
+              <item name="java-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-project" type="462c0819:PsiDirectoryNode" />
+              <item name="nio-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="nio-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="java-base-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-base-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-server" type="462c0819:PsiDirectoryNode" />
+              <item name="java-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-project" type="462c0819:PsiDirectoryNode" />
+              <item name="nio-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="nio-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="java-base-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-base-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="java-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-project" type="462c0819:PsiDirectoryNode" />
+              <item name="nio-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="nio-basic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="java-base-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-base-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-server" type="462c0819:PsiDirectoryNode" />
+              <item name="java-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-project" type="462c0819:PsiDirectoryNode" />
+              <item name="nio-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="nio-basic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="fifthexample" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="java-base-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-base-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-server" type="462c0819:PsiDirectoryNode" />
+              <item name="java-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-project" type="462c0819:PsiDirectoryNode" />
+              <item name="nio-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="nio-basic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="firstexample" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="java-base-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-base-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-server" type="462c0819:PsiDirectoryNode" />
+              <item name="java-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-project" type="462c0819:PsiDirectoryNode" />
+              <item name="nio-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="nio-basic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="fourthexample" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="java-base-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-base-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-server" type="462c0819:PsiDirectoryNode" />
+              <item name="java-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-project" type="462c0819:PsiDirectoryNode" />
+              <item name="nio-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="nio-basic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="secondexample" type="462c0819:PsiDirectoryNode" />
+              <item name="buffer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="java-base-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-base-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="sixthexample" type="462c0819:PsiDirectoryNode" />
+              <item name="java-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-project" type="462c0819:PsiDirectoryNode" />
+              <item name="nio-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="nio-client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="java-base-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-base-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-server" type="462c0819:PsiDirectoryNode" />
+              <item name="java-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-project" type="462c0819:PsiDirectoryNode" />
+              <item name="nio-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="nio-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="thirdexample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-project" type="462c0819:PsiDirectoryNode" />
+              <item name="nio-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="nio-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-project" type="462c0819:PsiDirectoryNode" />
+              <item name="nio-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="nio-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -490,10 +414,11 @@
     <property name="SearchEverywhereHistoryKey" value="Nio&#9;FILE&#9;jar:///Users/myz/.m2/repository/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/channel/socket/nio/NioServerSocketChannel.java&#10;ServerBo&#9;FILE&#9;jar:///Users/myz/.m2/repository/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java&#10;ByteToMessageDecoder&#9;PSI&#9;JAVA://io.netty.handler.codec.ByteToMessageDecoder&#10;GenericFut&#9;PSI&#9;JAVA://io.netty.util.concurrent.GenericFutureListener&#10;BootStrap&#9;PSI&#9;JAVA://io.netty.bootstrap.Bootstrap&#10;ServerBootS&#9;PSI&#9;JAVA://io.netty.bootstrap.ServerBootstrap&#10;ByteBuffer&#9;PSI&#9;JAVA://java.nio.ByteBuffer&#10;IntBuffer&#9;PSI&#9;JAVA://java.nio.IntBuffer&#10;LoggingHandler&#9;PSI&#9;JAVA://io.netty.handler.logging.LoggingHandler" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585973667969" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586107939758" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -518,7 +443,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThirdChatServer">
+  <component name="RunManager" selected="Application.BufferDemo2">
+    <configuration name="BufferDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.myz.com.myz.nio.basic.buffer.BufferDemo1" />
+      <module name="nio-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myz.com.myz.nio.basic.buffer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BufferDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.myz.com.myz.nio.basic.buffer.BufferDemo2" />
+      <module name="nio-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myz.com.myz.nio.basic.buffer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FifthServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.myz.netty.server.fifthexample.FifthServer" />
       <module name="netty-server" />
@@ -532,38 +483,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FourthServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.myz.netty.server.fourthexample.FourthServer" />
-      <module name="netty-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.myz.netty.server.fourthexample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SixthServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.myz.netty.server.sixthexample.SixthServer" />
       <module name="netty-server" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.myz.netty.server.sixthexample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThirdChatClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.myz.netty.client.thirdexample.ThirdChatClient" />
-      <module name="netty-client" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.myz.netty.client.thirdexample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -586,18 +511,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ThirdChatServer" />
-      <item itemvalue="Application.ThirdChatClient" />
-      <item itemvalue="Application.FourthServer" />
       <item itemvalue="Application.FifthServer" />
       <item itemvalue="Application.SixthServer" />
+      <item itemvalue="Application.BufferDemo1" />
+      <item itemvalue="Application.BufferDemo2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BufferDemo2" />
+        <item itemvalue="Application.BufferDemo1" />
         <item itemvalue="Application.ThirdChatServer" />
         <item itemvalue="Application.SixthServer" />
         <item itemvalue="Application.FifthServer" />
-        <item itemvalue="Application.ThirdChatClient" />
-        <item itemvalue="Application.FourthServer" />
       </list>
     </recent_temporary>
   </component>
@@ -622,17 +547,18 @@
       <workItem from="1583599523260" duration="1087000" />
       <workItem from="1585485291687" duration="9703000" />
       <workItem from="1585971401037" duration="2685000" />
+      <workItem from="1586106606881" duration="1352000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45190000" />
+    <option name="totallyTimeSpent" value="46542000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1678" y="188" width="1440" height="831" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21757925" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22118156" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -640,9 +566,9 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.34305555" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.34305555" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32916668" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49927953" weight="0.42540073" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49927953" visible="true" weight="0.425" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -650,7 +576,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49927953" weight="0.3276699" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50072044" side_tool="true" weight="0.32916668" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3288835" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32777777" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -698,6 +624,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -751,62 +682,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/netty-parent/netty-server/src/main/java/com/myz/netty/server/secondexample/SecondServerLengthFrameChannelInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="23" column="70" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-parent/netty-server/src/main/java/com/myz/netty/server/firstexample/FirstServerHttpChannelInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-parent/netty-server/src/main/java/com/myz/netty/server/thirdexample/ThirdServerChatHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-parent/netty-server/src/main/java/com/myz/netty/server/sixthexample/SixthServerPersonDecodeHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-parent/netty-server/src/main/java/com/myz/netty/server/sixthexample/SixthServerPersonDecodeChannelInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="67" selection-start-line="13" selection-start-column="67" selection-end-line="13" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-parent/netty-server/src/main/java/com/myz/netty/server/thirdexample/ThirdServerDelimitChannelInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/channel/ChannelInboundInvoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/channel/ChannelOutboundInvoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/channel/ChannelHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -874,14 +749,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="7828">
           <caret line="514" selection-start-line="514" selection-end-line="514" />
-          <folding>
-            <element signature="e#7531#7532#0" expanded="true" />
-            <element signature="e#7564#7565#0" expanded="true" />
-            <element signature="e#10421#10422#0" expanded="true" />
-            <element signature="e#10455#10456#0" expanded="true" />
-            <element signature="e#10499#10500#0" expanded="true" />
-            <element signature="e#10528#10529#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -889,9 +756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6042">
           <caret line="371" selection-start-line="371" selection-end-line="371" />
-          <folding>
-            <element signature="e#13724#13725#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -906,10 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15751">
           <caret line="963" selection-start-line="963" selection-end-line="963" />
-          <folding>
-            <element signature="e#5091#5092#0" expanded="true" />
-            <element signature="e#5132#5133#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -944,10 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2090">
           <caret line="163" column="26" selection-start-line="163" selection-start-column="26" selection-end-line="163" selection-end-column="26" />
-          <folding>
-            <element signature="e#29415#29416#0" expanded="true" />
-            <element signature="e#29455#29456#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1018,10 +874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
           <caret line="66" column="19" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
-          <folding>
-            <element signature="e#2189#2190#0" expanded="true" />
-            <element signature="e#2219#2220#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1067,20 +919,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/bootstrap/BootstrapConfig.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        <state relative-caret-position="190">
+          <caret line="152" column="12" selection-start-line="152" selection-start-column="12" selection-end-line="152" selection-end-column="12" />
           <folding>
-            <element signature="e#969#970#0" expanded="true" />
-            <element signature="e#1001#1002#0" expanded="true" />
+            <element signature="e#11493#11494#0" expanded="true" />
+            <element signature="e#11528#11529#0" expanded="true" />
+            <element signature="e#11796#11797#0" expanded="true" />
+            <element signature="e#11825#11826#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/bootstrap/ServerBootstrapConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
+        <state relative-caret-position="190">
           <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
           <folding>
             <element signature="e#1157#1158#0" expanded="true" />
@@ -1089,73 +943,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/channel/nio/NioEventLoopGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/util/concurrent/EventExecutorChooserFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/bootstrap/AbstractBootstrapConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
-          <folding>
-            <element signature="e#1248#1249#0" expanded="true" />
-            <element signature="e#1328#1329#0" expanded="true" />
-            <element signature="e#1944#1945#0" expanded="true" />
-            <element signature="e#1986#1987#0" expanded="true" />
-            <element signature="e#2509#2510#0" expanded="true" />
-            <element signature="e#2549#2550#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/bootstrap/Bootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="264" column="32" selection-start-line="264" selection-start-column="25" selection-end-line="264" selection-end-column="32" />
-          <folding>
-            <element signature="e#11642#11643#0" expanded="true" />
-            <element signature="e#11671#11672#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/util/concurrent/MultithreadEventExecutorGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="136" column="24" lean-forward="true" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
-          <folding>
-            <element signature="e#5733#5734#0" expanded="true" />
-            <element signature="e#5770#5771#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/channel/MultithreadEventLoopGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="85" column="17" lean-forward="true" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
-          <folding>
-            <element signature="e#3118#3119#0" expanded="true" />
-            <element signature="e#3165#3166#0" expanded="true" />
-            <element signature="e#3343#3344#0" expanded="true" />
-            <element signature="e#3390#3391#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/bootstrap/AbstractBootstrap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
+        <state relative-caret-position="5852">
           <caret line="353" column="18" selection-start-line="353" selection-start-column="18" selection-end-line="353" selection-end-column="18" />
           <folding>
             <element signature="e#3460#3461#0" expanded="true" />
@@ -1172,30 +962,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/channel/nio/NioEventLoopGroup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-384">
-          <caret line="143" column="29" selection-start-line="143" selection-start-column="12" selection-end-line="143" selection-end-column="29" />
+        <state relative-caret-position="152">
+          <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/channel/MultithreadEventLoopGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="85" column="17" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
           <folding>
-            <element signature="e#1811#1837#0" expanded="true" />
-            <element signature="e#1918#1943#0" expanded="true" />
-            <element signature="e#5521#5551#1" expanded="true" />
-            <element signature="e#6297#7035#0" expanded="true" />
-            <element signature="e#6695#7009#0" expanded="true" />
-            <element signature="e#7008#7009#0" expanded="true" />
-            <element signature="e#7034#7035#0" expanded="true" />
-            <element signature="e#7435#7465#0" expanded="true" />
-            <element signature="e#7586#7616#0" expanded="true" />
-            <element signature="e#8919#9085#0" expanded="true" />
-            <element signature="e#9084#9085#0" expanded="true" />
-            <element signature="e#9124#9154#0" expanded="true" />
-            <element signature="e#9626#9956#0" expanded="true" />
-            <element signature="e#9955#9956#0" expanded="true" />
-            <element signature="e#11013#11059#0" expanded="true" />
-            <element signature="e#11493#11494#0" expanded="true" />
-            <element signature="e#11528#11529#0" expanded="true" />
-            <element signature="e#11796#11797#0" expanded="true" />
-            <element signature="e#11825#11826#0" expanded="true" />
+            <element signature="e#3118#3119#0" expanded="true" />
+            <element signature="e#3165#3166#0" expanded="true" />
+            <element signature="e#3343#3344#0" expanded="true" />
+            <element signature="e#3390#3391#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/util/concurrent/MultithreadEventExecutorGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2071">
+          <caret line="136" column="24" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
+          <folding>
+            <element signature="e#5733#5734#0" expanded="true" />
+            <element signature="e#5770#5771#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/util/concurrent/EventExecutorChooserFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/bootstrap/Bootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4161">
+          <caret line="264" column="32" selection-start-line="264" selection-start-column="25" selection-end-line="264" selection-end-column="32" />
+          <folding>
+            <element signature="e#11642#11643#0" expanded="true" />
+            <element signature="e#11671#11672#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/bootstrap/BootstrapConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+          <folding>
+            <element signature="e#969#970#0" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/bootstrap/AbstractBootstrapConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+          <folding>
+            <element signature="e#1248#1249#0" expanded="true" />
+            <element signature="e#1328#1329#0" expanded="true" />
+            <element signature="e#1944#1945#0" expanded="true" />
+            <element signature="e#1986#1987#0" expanded="true" />
+            <element signature="e#2509#2510#0" expanded="true" />
+            <element signature="e#2549#2550#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nio-parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="29" column="35" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nio-parent/nio-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nio-parent/nio-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nio-parent/nio-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nio-parent/nio-basic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nio-parent/nio-basic/src/main/java/com/myz/com/myz/nio/basic/buffer/BufferDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/nio/Buffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="355" column="24" selection-start-line="355" selection-start-column="24" selection-end-line="355" selection-end-column="24" />
+          <folding>
+            <element signature="e#12489#12490#0" expanded="true" />
+            <element signature="e#12528#12529#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nio-parent/nio-basic/src/main/java/com/myz/com/myz/nio/basic/buffer/BufferDemo2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="53" column="35" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

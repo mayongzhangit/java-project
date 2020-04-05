@@ -10,6 +10,10 @@
         <module name="netty-api" />
         <module name="netty-client" />
         <module name="netty-server" />
+        <module name="nio-api" />
+        <module name="nio-basic" />
+        <module name="nio-client" />
+        <module name="nio-server" />
       </profile>
     </annotationProcessing>
   </component>

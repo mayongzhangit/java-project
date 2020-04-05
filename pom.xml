@@ -10,6 +10,7 @@
     <modules>
         <module>netty-parent</module>
         <module>java-common</module>
+        <module>nio-parent</module>
     </modules>
     <packaging>pom</packaging>
 
