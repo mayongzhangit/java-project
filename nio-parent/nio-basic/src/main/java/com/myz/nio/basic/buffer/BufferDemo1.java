@@ -1,4 +1,4 @@
-package com.myz.com.myz.nio.basic.buffer;
+package com.myz.nio.basic.buffer;
 
 import com.myz.common.util.PrintUtil;
 

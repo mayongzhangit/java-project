@@ -1,4 +1,4 @@
-package com.myz.com.myz.nio.basic.buffer;
+package com.myz.nio.basic.buffer;
 
 import com.myz.common.util.PrintUtil;
 
@@ -49,8 +49,6 @@ public class BufferDemo2 {
         PrintUtil.print(byteBuffer.get());
         PrintUtil.print(byteBuffer.get());
 
-
-
         byteBuffer.clear();// 依然为数据
         PrintUtil.print("[ clear ]"+byteBuffer);
         PrintUtil.print(byteBuffer.get());
@@ -59,10 +57,6 @@ public class BufferDemo2 {
         PrintUtil.print(byteBuffer.get());
         PrintUtil.print(byteBuffer.get());
         PrintUtil.print(byteBuffer.get());
-
-
-
-
 
     }
 }
