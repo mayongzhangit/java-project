@@ -12,5 +12,9 @@
     <file url="file://$PROJECT_DIR$/nio-parent/nio-basic" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nio-parent/nio-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nio-parent/nio-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rmi-parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rmi-parent/rmi-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rmi-parent/rmi-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rmi-parent/rmi-server" charset="UTF-8" />
   </component>
 </project>
