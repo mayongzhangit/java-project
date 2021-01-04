@@ -1,38 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:netty-parent" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:netty-parent" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:netty-api" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:rmi-parent" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:rmi-parent" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:rmi-api" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="eae5fd56-135c-4ec7-90de-97d07af6f062" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/rmi-parent/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rmi-parent/rmi-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rmi-parent/rmi-api/src/main/java/com/myz/rmi/api/model/UserModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rmi-parent/rmi-api/src/main/java/com/myz/rmi/api/service/HelloService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rmi-parent/rmi-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rmi-parent/rmi-client/src/main/java/com/myz/rmi/client/RmiClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rmi-parent/rmi-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rmi-parent/rmi-server/src/main/java/com/myz/rmi/server/RmiServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rmi-parent/rmi-server/src/main/java/com/myz/rmi/server/service/impl/HelloServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/java-project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-parent/netty-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/netty-parent/netty-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-parent/netty-client/target/classes/com/myz/netty/client/secondexample/SecondClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-parent/netty-client/target/classes/com/myz/netty/client/secondexample/SecondClientHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-parent/netty-client/target/classes/com/myz/netty/client/secondexample/SecondClientLengthFrameInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-parent/netty-client/target/classes/com/myz/netty/client/thirdexample/ThirdChatClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-parent/netty-client/target/classes/com/myz/netty/client/thirdexample/ThirdChatHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-parent/netty-client/target/classes/com/myz/netty/client/thirdexample/ThirdClientDelimitFrameInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-parent/netty-server/target/classes/com/myz/netty/server/fifthexample/FifthServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-parent/netty-server/target/classes/com/myz/netty/server/fifthexample/FifthServerWebSocketChannelInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-parent/netty-server/target/classes/com/myz/netty/server/fifthexample/FifthServerWebSocketHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-parent/netty-server/target/classes/com/myz/netty/server/firstexample/FirstServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-parent/netty-server/target/classes/com/myz/netty/server/firstexample/FirstServerHttpChannelInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-parent/netty-server/target/classes/com/myz/netty/server/firstexample/FirstServerHttpHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-parent/netty-server/target/classes/com/myz/netty/server/fourthexample/FourthIdleStateHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-parent/netty-server/target/classes/com/myz/netty/server/fourthexample/FourthIdleStateInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-parent/netty-server/target/classes/com/myz/netty/server/fourthexample/FourthServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-parent/netty-server/target/classes/com/myz/netty/server/secondexample/SecondServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-parent/netty-server/target/classes/com/myz/netty/server/secondexample/SecondServerLengthFrameChannelInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-parent/netty-server/target/classes/com/myz/netty/server/secondexample/SecondServerStringHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-parent/netty-server/target/classes/com/myz/netty/server/sixthexample/SixthServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-parent/netty-server/target/classes/com/myz/netty/server/thirdexample/ThirdChatServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-parent/netty-server/target/classes/com/myz/netty/server/thirdexample/ThirdServerChatHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-parent/netty-server/target/classes/com/myz/netty/server/thirdexample/ThirdServerDelimitChannelInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/netty-parent/pom.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/netty-parent/target/" />
-    <ignored path="$PROJECT_DIR$/netty-parent/netty-server/target/" />
-    <ignored path="$PROJECT_DIR$/netty-parent/netty-client/target/" />
-    <ignored path="$PROJECT_DIR$/java-common/target/" />
-    <ignored path="$PROJECT_DIR$/netty-parent/netty-api/target/" />
-    <ignored path="$PROJECT_DIR$/nio-parent/target/" />
-    <ignored path="$PROJECT_DIR$/nio-parent/nio-basic/target/" />
-    <ignored path="$PROJECT_DIR$/nio-parent/nio-api/target/" />
-    <ignored path="$PROJECT_DIR$/nio-parent/nio-client/target/" />
-    <ignored path="$PROJECT_DIR$/nio-parent/nio-server/target/" />
-    <ignored path="$PROJECT_DIR$/rmi-parent/target/" />
-    <ignored path="$PROJECT_DIR$/rmi-parent/rmi-server/target/" />
-    <ignored path="$PROJECT_DIR$/rmi-parent/rmi-client/target/" />
-    <ignored path="$PROJECT_DIR$/rmi-parent/rmi-api/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,160 +110,6 @@
   <component name="CoverageViewManager">
     <option name="myElementSize" value="218" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1491477051">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="9" />
-          <entry key="java" value="21" />
-          <entry key="xml" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="9" />
-          <entry key="JAVA" value="21" />
-          <entry key="XML" value="4" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="746" />
-          <entry key="xml" value="39" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="746" />
-          <entry key="XML" value="39" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rmi-parent/rmi-server/src/main/java/com/myz/rmi/server/service/impl/HelloServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#680#681#0" expanded="true" />
-                <element signature="e#710#711#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rmi-parent/rmi-api/src/main/java/com/myz/rmi/api/service/HelloService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/sun/rmi/server/Util.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="49" column="33" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rmi-parent/rmi-client/src/main/java/com/myz/rmi/client/RmiClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rmi-parent/rmi-api/src/main/java/com/myz/rmi/api/model/UserModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-              <folding>
-                <element signature="e#223#224#0" expanded="true" />
-                <element signature="e#248#249#0" expanded="true" />
-                <element signature="e#282#283#0" expanded="true" />
-                <element signature="e#310#311#0" expanded="true" />
-                <element signature="e#341#342#0" expanded="true" />
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#408#409#0" expanded="true" />
-                <element signature="e#440#441#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rmi-parent/rmi-server/src/main/java/com/myz/rmi/server/RmiServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/rmi/Naming.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="127" column="19" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/rmi/registry/Registry.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="126" column="16" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/sun/rmi/registry/RegistryImpl.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="162" column="13" lean-forward="true" selection-start-line="162" selection-start-column="13" selection-end-line="162" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/rmi/registry/LocateRegistry.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-370">
-              <caret line="143" column="27" selection-start-line="143" selection-start-column="27" selection-end-line="143" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -209,72 +119,8 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>channelRegistered</find>
-      <find>java-common</find>
-      <find>getRemoteInterfaces</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/netty-parent/netty-client/src/main/java/com/myz/netty/client/secondexample/SecondClientHandler.java" />
-        <option value="$PROJECT_DIR$/netty-parent/netty-server/src/main/java/com/myz/netty/server/secondexample/SecondServerLengthFrameChannelInitializer.java" />
-        <option value="$PROJECT_DIR$/netty-parent/netty-client/src/main/java/com/myz/netty/client/secondexample/SecondClientLengthFrameInitializer.java" />
-        <option value="$PROJECT_DIR$/netty-parent/netty-server/src/main/java/com/myz/netty/server/secondexample/SecondServerStringHandler.java" />
-        <option value="$PROJECT_DIR$/netty-parent/netty-server/src/main/java/com/myz/netty/server/thirdexample/ThirdServerDelimitChannelInitializer.java" />
-        <option value="$PROJECT_DIR$/netty-parent/netty-server/src/main/java/com/myz/netty/server/thirdexample/ThirdServer.java" />
-        <option value="$PROJECT_DIR$/netty-parent/netty-client/src/main/java/com/myz/netty/client/thirdexample/ThirdClientDelimitFrameInitializer.java" />
-        <option value="$PROJECT_DIR$/netty-parent/netty-client/src/main/java/com/myz/netty/client/thirdexample/ThirdChatHandler.java" />
-        <option value="$PROJECT_DIR$/netty-parent/netty-client/src/main/java/com/myz/netty/client/thirdexample/ThirdChatClient.java" />
-        <option value="$PROJECT_DIR$/netty-parent/netty-server/src/main/java/com/myz/netty/server/thirdexample/ThirdServerChatHandler.java" />
-        <option value="$PROJECT_DIR$/netty-parent/netty-server/src/main/java/com/myz/netty/server/thirdexample/ThirdChatServer.java" />
-        <option value="$PROJECT_DIR$/netty-parent/netty-server/src/main/java/com/myz/netty/server/fourthexample/FourthIdleInitializer.java" />
-        <option value="$PROJECT_DIR$/netty-parent/netty-server/src/main/java/com/myz/netty/server/fourthexample/FourthIdleStateHandler.java" />
-        <option value="$PROJECT_DIR$/netty-parent/netty-server/src/main/java/com/myz/netty/server/fourthexample/FourthServer.java" />
-        <option value="$PROJECT_DIR$/netty-parent/netty-server/src/main/java/com/myz/netty/server/fourthexample/FourthIdleStateInitializer.java" />
-        <option value="$PROJECT_DIR$/netty-parent/netty-server/src/main/java/com/myz/netty/server/fifthexample/FifthWebsocketChannelInitializer.java" />
-        <option value="$PROJECT_DIR$/netty-parent/netty-server/src/main/java/com/myz/netty/server/fifthexample/FifthWebSocketChannelInitializer.java" />
-        <option value="$PROJECT_DIR$/netty-parent/netty-server/src/main/java/com/myz/netty/server/fifthexample/FifthServer.java" />
-        <option value="$PROJECT_DIR$/netty-parent/netty-client/src/main/webapp/fifthexample/FifthClient.html" />
-        <option value="$PROJECT_DIR$/netty-parent/netty-client/src/main/webapp/fifthexample/FifthClientWebSocket.html" />
-        <option value="$PROJECT_DIR$/netty-parent/netty-server/src/main/java/com/myz/netty/server/fifthexample/FifthServerWebSocketHandler.java" />
-        <option value="$PROJECT_DIR$/netty-parent/netty-server/src/main/java/com/myz/netty/server/fifthexample/FifthServerWebSocketChannelInitializer.java" />
-        <option value="$PROJECT_DIR$/netty-parent/netty-api/pom.xml" />
-        <option value="$PROJECT_DIR$/netty-parent/netty-api/src/main/java/com/myz/netty/api/model/Person.java" />
-        <option value="$PROJECT_DIR$/netty-parent/netty-api/src/main/java/com/myz/netty/api/model/UserModel.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/netty-parent/netty-client/pom.xml" />
-        <option value="$PROJECT_DIR$/netty-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/netty-parent/netty-server/pom.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/netty-parent/netty-server/src/main/java/com/myz/netty/server/sixthexample/SixthServer.java" />
-        <option value="$PROJECT_DIR$/netty-parent/netty-server/src/main/java/com/myz/netty/server/sixthexample/SixthServerDecodeChannelInitializer.java" />
-        <option value="$PROJECT_DIR$/netty-parent/netty-server/src/main/java/com/myz/netty/server/sixthexample/SixthServerPersonDecodeChannelInitializer.java" />
-        <option value="$PROJECT_DIR$/netty-parent/netty-server/src/main/java/com/myz/netty/server/sixthexample/SixthServerPersonDecodeHandler.java" />
-        <option value="$PROJECT_DIR$/nio-parent/nio-server/pom.xml" />
-        <option value="$PROJECT_DIR$/nio-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/nio-parent/nio-api/pom.xml" />
-        <option value="$PROJECT_DIR$/nio-parent/nio-client/pom.xml" />
-        <option value="$PROJECT_DIR$/nio-parent/nio-basic/pom.xml" />
-        <option value="$PROJECT_DIR$/nio-parent/nio-basic/src/main/java/com/myz/com/myz/nio/basic/buffer/BufferDemo1.java" />
-        <option value="$PROJECT_DIR$/nio-parent/nio-basic/src/main/java/com/myz/com/myz/nio/basic/buffer/BufferDemo2.java" />
-        <option value="$PROJECT_DIR$/rmi-parent/pom.xml" />
-        <option value="$PROJECT_DIR$/rmi-parent/rmi-api/pom.xml" />
-        <option value="$PROJECT_DIR$/rmi-parent/rmi-server/pom.xml" />
-        <option value="$PROJECT_DIR$/rmi-parent/rmi-client/pom.xml" />
-        <option value="$PROJECT_DIR$/rmi-parent/rmi-api/src/main/java/com/myz/rmi/api/HelloService.java" />
-        <option value="$PROJECT_DIR$/rmi-parent/rmi-server/src/main/java/com/myz/rmi/server/service/impl/HelloServiceImpl.java" />
-        <option value="$PROJECT_DIR$/rmi-parent/rmi-api/src/main/java/com/myz/rmi/api/service/HelloService.java" />
-        <option value="$PROJECT_DIR$/rmi-parent/rmi-api/src/main/java/com/myz/rmi/api/model/UserModel.java" />
-        <option value="$PROJECT_DIR$/rmi-parent/rmi-client/src/main/java/com/myz/rmi/client/RmiClient.java" />
-        <option value="$PROJECT_DIR$/rmi-parent/rmi-server/src/main/java/com/myz/rmi/server/RmiServer.java" />
-      </list>
-    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -282,150 +128,20 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="MavenProjectNavigator">
-    <option name="groupStructurally" value="true" />
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="java-base-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="java-base-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Modules" type="87271259:MavenProjectsStructure$ModulesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="java-base-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Modules" type="87271259:MavenProjectsStructure$ModulesNode" />
-          <item name="netty-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="java-base-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Modules" type="87271259:MavenProjectsStructure$ModulesNode" />
-          <item name="netty-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Modules" type="87271259:MavenProjectsStructure$ModulesNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="797" />
   </component>
+  <component name="ProjectId" id="1maWl2EeQ7DnyA1lWFkzKJoLDne" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="java-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-project" type="462c0819:PsiDirectoryNode" />
-              <item name="rmi-parent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-project" type="462c0819:PsiDirectoryNode" />
-              <item name="rmi-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="rmi-client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-project" type="462c0819:PsiDirectoryNode" />
-              <item name="rmi-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="rmi-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-project" type="462c0819:PsiDirectoryNode" />
-              <item name="rmi-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="rmi-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-project" type="462c0819:PsiDirectoryNode" />
-              <item name="rmi-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="rmi-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-project" type="462c0819:PsiDirectoryNode" />
-              <item name="rmi-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="rmi-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-project" type="462c0819:PsiDirectoryNode" />
-              <item name="rmi-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="rmi-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-project" type="462c0819:PsiDirectoryNode" />
-              <item name="rmi-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="rmi-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-project" type="462c0819:PsiDirectoryNode" />
-              <item name="rmi-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="rmi-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-project" type="462c0819:PsiDirectoryNode" />
-              <item name="rmi-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="rmi-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-project" type="462c0819:PsiDirectoryNode" />
-              <item name="rmi-parent" type="462c0819:PsiDirectoryNode" />
-              <item name="rmi-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="Nio&#9;FILE&#9;jar:///Users/myz/.m2/repository/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/channel/socket/nio/NioServerSocketChannel.java&#10;ServerBo&#9;FILE&#9;jar:///Users/myz/.m2/repository/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java&#10;ByteToMessageDecoder&#9;PSI&#9;JAVA://io.netty.handler.codec.ByteToMessageDecoder&#10;GenericFut&#9;PSI&#9;JAVA://io.netty.util.concurrent.GenericFutureListener&#10;BootStrap&#9;PSI&#9;JAVA://io.netty.bootstrap.Bootstrap&#10;ServerBootS&#9;PSI&#9;JAVA://io.netty.bootstrap.ServerBootstrap&#10;ByteBuffer&#9;PSI&#9;JAVA://java.nio.ByteBuffer&#10;IntBuffer&#9;PSI&#9;JAVA://java.nio.IntBuffer&#10;LoggingHandler&#9;PSI&#9;JAVA://io.netty.handler.logging.LoggingHandler" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -445,18 +161,6 @@
       <recent name="com.myz.netty.server.secondexample" />
       <recent name="com.myz.netty.server.firstexample" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.RmiClient">
     <configuration name="BufferDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -570,82 +274,46 @@
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="49624000" />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22389127" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="EvoSuite" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3421687" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32916668" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49927953" visible="true" weight="0.42409638" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49927953" weight="0.3276699" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50072044" side_tool="true" weight="0.32916668" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32771084" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32967034" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3299712" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3970407" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49927953" weight="0.47965476" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49927953" visible="true" weight="0.32799014" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50072044" side_tool="true" weight="0.32916668" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32916668" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.3299712" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1609732864483">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609732864483" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1609732864482">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609732864482" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1609732864482">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609732864482" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1609732864482">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609732864482" />
+    <state x="3064" y="205" width="675" height="536" key="find.popup" timestamp="1609732829634">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="3064" y="205" width="675" height="536" key="find.popup/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609732829634" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -653,49 +321,41 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/netty-parent/netty-server/src/main/java/com/myz/netty/server/fifthexample/FifthServer.java</url>
           <line>23</line>
-          <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/channel/ChannelInitializer.java</url>
           <line>77</line>
-          <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/channel/ChannelInitializer.java</url>
           <line>106</line>
-          <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/netty-parent/netty-server/src/main/java/com/myz/netty/server/thirdexample/ThirdChatServer.java</url>
           <line>32</line>
-          <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java</url>
           <line>171</line>
-          <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java</url>
           <line>180</line>
-          <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/rmi/Naming.java</url>
           <line>127</line>
-          <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/rmi/Naming.java</url>
           <line>121</line>
-          <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
@@ -709,425 +369,6 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/channel/ChannelFuture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="164" column="30" selection-start-line="164" selection-start-column="17" selection-end-line="164" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/channel/ReflectiveChannelFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/channel/DefaultChannelPromise.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="66" column="19" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/channel/Channel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="76" column="17" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/channel/socket/SocketChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/channel/ServerChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/channel/socket/ServerSocketChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="24" column="48" lean-forward="true" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/channel/socket/nio/NioSocketChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="50" column="107" lean-forward="true" selection-start-line="50" selection-start-column="107" selection-end-line="50" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/channel/socket/nio/NioServerSocketChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="45" column="71" lean-forward="true" selection-start-line="45" selection-start-column="71" selection-end-line="45" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/bootstrap/ServerBootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="152" column="12" selection-start-line="152" selection-start-column="12" selection-end-line="152" selection-end-column="12" />
-          <folding>
-            <element signature="e#11493#11494#0" expanded="true" />
-            <element signature="e#11528#11529#0" expanded="true" />
-            <element signature="e#11796#11797#0" expanded="true" />
-            <element signature="e#11825#11826#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/bootstrap/ServerBootstrapConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/bootstrap/AbstractBootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5852">
-          <caret line="353" column="18" selection-start-line="353" selection-start-column="18" selection-end-line="353" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/channel/nio/NioEventLoopGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/channel/MultithreadEventLoopGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1121">
-          <caret line="85" column="17" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/util/concurrent/MultithreadEventExecutorGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2071">
-          <caret line="136" column="24" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/util/concurrent/EventExecutorChooserFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/bootstrap/Bootstrap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4161">
-          <caret line="264" column="32" selection-start-line="264" selection-start-column="25" selection-end-line="264" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/nio/Buffer.java" />
-    <entry file="file://$PROJECT_DIR$/nio-parent/pom.xml">
-      <provider editor-type-id="YarmPluginDependencyUpdater" />
-      <provider editor-type-id="YarmPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="35" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nio-parent/nio-basic/pom.xml">
-      <provider editor-type-id="YarmPluginDependencyUpdater" />
-      <provider editor-type-id="YarmPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nio-parent/nio-basic/src/main/java/com/myz/com/myz/nio/basic/buffer/BufferDemo1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nio-parent/nio-api/pom.xml">
-      <provider editor-type-id="YarmPluginDependencyUpdater" />
-      <provider editor-type-id="YarmPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nio-parent/nio-client/pom.xml">
-      <provider editor-type-id="YarmPluginDependencyUpdater" />
-      <provider editor-type-id="YarmPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nio-parent/nio-server/pom.xml">
-      <provider editor-type-id="YarmPluginDependencyUpdater" />
-      <provider editor-type-id="YarmPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/bootstrap/BootstrapConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding>
-            <element signature="e#969#970#0" expanded="true" />
-            <element signature="e#1001#1002#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.1.36.Final/netty-all-4.1.36.Final-sources.jar!/io/netty/bootstrap/AbstractBootstrapConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="57" column="32" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
-          <folding>
-            <element signature="e#1248#1249#0" expanded="true" />
-            <element signature="e#1328#1329#0" expanded="true" />
-            <element signature="e#1944#1945#0" expanded="true" />
-            <element signature="e#1986#1987#0" expanded="true" />
-            <element signature="e#2509#2510#0" expanded="true" />
-            <element signature="e#2549#2550#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nio-parent/nio-basic/src/main/java/com/myz/com/myz/nio/basic/buffer/BufferDemo2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rmi-parent/pom.xml">
-      <provider editor-type-id="YarmPluginDependencyUpdater" />
-      <provider editor-type-id="YarmPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rmi-parent/rmi-api/pom.xml">
-      <provider editor-type-id="YarmPluginDependencyUpdater" />
-      <provider editor-type-id="YarmPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rmi-parent/rmi-server/pom.xml">
-      <provider editor-type-id="YarmPluginDependencyUpdater" />
-      <provider editor-type-id="YarmPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rmi-parent/rmi-client/pom.xml">
-      <provider editor-type-id="YarmPluginDependencyUpdater" />
-      <provider editor-type-id="YarmPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/rmi/Remote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/rmi/server/RemoteRef.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-822">
-          <caret line="38" column="57" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/rmi/server/RemoteObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="46" column="27" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/rmi/server/RemoteServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="41" column="34" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/rmi/server/RMIClientSocketFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/sun/rmi/transport/LiveRef.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="43" column="37" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/sun/rmi/transport/tcp/TCPTransport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="78" column="4" selection-start-line="78" selection-start-column="4" selection-end-line="78" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/sun/rmi/transport/tcp/TCPEndpoint.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="85" column="30" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/rmi/server/UnicastRemoteObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="179" column="12" selection-start-line="179" selection-start-column="8" selection-end-line="179" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/sun/rmi/server/UnicastServerRef.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="105" selection-start-line="105" selection-end-line="105" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rmi-parent/rmi-api/src/main/java/com/myz/rmi/api/service/HelloService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rmi-parent/rmi-server/src/main/java/com/myz/rmi/server/service/impl/HelloServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#710#711#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/sun/rmi/server/Util.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="49" column="33" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rmi-parent/rmi-api/src/main/java/com/myz/rmi/api/model/UserModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-          <folding>
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#282#283#0" expanded="true" />
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rmi-parent/rmi-client/src/main/java/com/myz/rmi/client/RmiClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/rmi/registry/LocateRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-370">
-          <caret line="143" column="27" selection-start-line="143" selection-start-column="27" selection-end-line="143" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/rmi/Naming.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="127" column="19" selection-start-line="127" selection-start-column="17" selection-end-line="127" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/rmi/registry/Registry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="126" column="16" selection-start-line="126" selection-start-column="16" selection-end-line="126" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/sun/rmi/registry/RegistryImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="162" column="13" lean-forward="true" selection-start-line="162" selection-start-column="13" selection-end-line="162" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rmi-parent/rmi-server/src/main/java/com/myz/rmi/server/RmiServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="25" column="42" selection-start-line="25" selection-start-column="42" selection-end-line="25" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>

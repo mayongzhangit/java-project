@@ -3,18 +3,28 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/java-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/netty-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/netty-parent/netty-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty-parent/netty-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/netty-parent/netty-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty-parent/netty-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/netty-parent/netty-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netty-parent/netty-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nio-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nio-parent/nio-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nio-parent/nio-basic" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nio-parent/nio-basic/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nio-parent/nio-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nio-parent/nio-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/nio-parent/nio-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nio-parent/nio-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rmi-parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rmi-parent/rmi-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rmi-parent/rmi-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rmi-parent/rmi-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rmi-parent/rmi-client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rmi-parent/rmi-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rmi-parent/rmi-server/src/main/java" charset="UTF-8" />
   </component>
 </project>
