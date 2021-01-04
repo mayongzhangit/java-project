@@ -67,35 +67,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eae5fd56-135c-4ec7-90de-97d07af6f062" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/java-project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm-jstack/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm-jstack/src/main/java/com/myz/jvm/jstack/ThreadStatusInJstack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/socket-parent/socket-client/src/main/java/com/myz/socket/client/udp/UdpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/socket-parent/socket-server/src/main/java/com/myz/socket/server/udp/UdpServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty-parent/netty-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/netty-parent/netty-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty-parent/netty-client/target/classes/com/myz/netty/client/secondexample/SecondClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty-parent/netty-client/target/classes/com/myz/netty/client/secondexample/SecondClientHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty-parent/netty-client/target/classes/com/myz/netty/client/secondexample/SecondClientLengthFrameInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty-parent/netty-client/target/classes/com/myz/netty/client/thirdexample/ThirdChatClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty-parent/netty-client/target/classes/com/myz/netty/client/thirdexample/ThirdChatHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty-parent/netty-client/target/classes/com/myz/netty/client/thirdexample/ThirdClientDelimitFrameInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty-parent/netty-server/target/classes/com/myz/netty/server/fifthexample/FifthServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty-parent/netty-server/target/classes/com/myz/netty/server/fifthexample/FifthServerWebSocketChannelInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty-parent/netty-server/target/classes/com/myz/netty/server/fifthexample/FifthServerWebSocketHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty-parent/netty-server/target/classes/com/myz/netty/server/firstexample/FirstServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty-parent/netty-server/target/classes/com/myz/netty/server/firstexample/FirstServerHttpChannelInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty-parent/netty-server/target/classes/com/myz/netty/server/firstexample/FirstServerHttpHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty-parent/netty-server/target/classes/com/myz/netty/server/fourthexample/FourthIdleStateHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty-parent/netty-server/target/classes/com/myz/netty/server/fourthexample/FourthIdleStateInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty-parent/netty-server/target/classes/com/myz/netty/server/fourthexample/FourthServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty-parent/netty-server/target/classes/com/myz/netty/server/secondexample/SecondServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty-parent/netty-server/target/classes/com/myz/netty/server/secondexample/SecondServerLengthFrameChannelInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty-parent/netty-server/target/classes/com/myz/netty/server/secondexample/SecondServerStringHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty-parent/netty-server/target/classes/com/myz/netty/server/sixthexample/SixthServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty-parent/netty-server/target/classes/com/myz/netty/server/thirdexample/ThirdChatServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty-parent/netty-server/target/classes/com/myz/netty/server/thirdexample/ThirdServerChatHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty-parent/netty-server/target/classes/com/myz/netty/server/thirdexample/ThirdServerDelimitChannelInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/netty-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/netty-parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-common/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nio-parent/nio-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/socket-parent/socket-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nio-parent/nio-basic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/socket-parent/socket-basic/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nio-parent/nio-basic/src/main/java/com/myz/com/myz/nio/basic/buffer/BufferDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket-parent/socket-basic/src/main/java/com/myz/com/myz/nio/basic/buffer/BufferDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nio-parent/nio-basic/src/main/java/com/myz/com/myz/nio/basic/buffer/BufferDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket-parent/socket-basic/src/main/java/com/myz/com/myz/nio/basic/buffer/BufferDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nio-parent/nio-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/socket-parent/socket-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nio-parent/nio-client/src/main/java/com/myz/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nio-parent/nio-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/socket-parent/socket-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nio-parent/nio-server/src/main/java/com/myz/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nio-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/socket-parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,11 +119,6 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="797" />
-  </component>
   <component name="ProjectId" id="1maWl2EeQ7DnyA1lWFkzKJoLDne" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -153,6 +139,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.myz.socket.server.udp" />
       <recent name="com.myz.netty.client.secondexample" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
@@ -162,33 +149,7 @@
       <recent name="com.myz.netty.server.firstexample" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RmiClient">
-    <configuration name="BufferDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.myz.com.myz.nio.basic.buffer.BufferDemo1" />
-      <module name="nio-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.myz.com.myz.nio.basic.buffer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BufferDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.myz.com.myz.nio.basic.buffer.BufferDemo2" />
-      <module name="nio-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.myz.com.myz.nio.basic.buffer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.UdpClient">
     <configuration name="RmiClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.myz.rmi.client.RmiClient" />
       <module name="rmi-client" />
@@ -215,12 +176,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThirdChatServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.myz.netty.server.thirdexample.ThirdChatServer" />
-      <module name="netty-server" />
+    <configuration name="ThreadStatusInJstack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.myz.jvm.jstack.ThreadStatusInJstack" />
+      <module name="jvm-jstack" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.myz.netty.server.thirdexample.*" />
+          <option name="PATTERN" value="com.myz.jvm.jstack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UdpClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.myz.socket.client.udp.UdpClient" />
+      <module name="socket-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myz.socket.client.udp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UdpServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.myz.socket.server.udp.UdpServer" />
+      <module name="socket-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myz.socket.server.udp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -229,19 +216,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ThirdChatServer" />
-      <item itemvalue="Application.BufferDemo1" />
-      <item itemvalue="Application.BufferDemo2" />
       <item itemvalue="Application.RmiServer" />
       <item itemvalue="Application.RmiClient" />
+      <item itemvalue="Application.ThreadStatusInJstack" />
+      <item itemvalue="Application.UdpClient" />
+      <item itemvalue="Application.UdpServer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UdpClient" />
+        <item itemvalue="Application.UdpServer" />
+        <item itemvalue="Application.ThreadStatusInJstack" />
         <item itemvalue="Application.RmiClient" />
         <item itemvalue="Application.RmiServer" />
-        <item itemvalue="Application.BufferDemo2" />
-        <item itemvalue="Application.BufferDemo1" />
-        <item itemvalue="Application.ThirdChatServer" />
       </list>
     </recent_temporary>
   </component>
@@ -294,26 +281,66 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1609732864483">
+    <state x="2685" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1609747304715">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609732864483" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1609732864482">
+    <state x="2685" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609747304715" />
+    <state width="1877" height="383" key="GridCell.Tab.0.bottom" timestamp="1609753289267">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609732864482" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1609732864482">
+    <state width="1877" height="383" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609753289267" />
+    <state width="1877" height="383" key="GridCell.Tab.0.center" timestamp="1609753289267">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609732864482" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1609732864482">
+    <state width="1877" height="383" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609753289267" />
+    <state width="1877" height="383" key="GridCell.Tab.0.left" timestamp="1609753289267">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609732864482" />
+    <state width="1877" height="383" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609753289267" />
+    <state width="1877" height="383" key="GridCell.Tab.0.right" timestamp="1609753289267">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="383" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609753289267" />
+    <state width="1877" height="383" key="GridCell.Tab.1.bottom" timestamp="1609753289141">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="383" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609753289141" />
+    <state width="1877" height="383" key="GridCell.Tab.1.center" timestamp="1609753289140">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="383" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609753289140" />
+    <state width="1877" height="383" key="GridCell.Tab.1.left" timestamp="1609753289140">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="383" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609753289140" />
+    <state width="1877" height="383" key="GridCell.Tab.1.right" timestamp="1609753289140">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="383" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609753289140" />
+    <state width="1877" height="383" key="GridCell.Tab.2.bottom" timestamp="1609753133345">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="383" key="GridCell.Tab.2.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609753133345" />
+    <state width="1877" height="383" key="GridCell.Tab.2.center" timestamp="1609753133345">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="383" key="GridCell.Tab.2.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609753133345" />
+    <state width="1877" height="383" key="GridCell.Tab.2.left" timestamp="1609753133345">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="383" key="GridCell.Tab.2.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609753133345" />
+    <state width="1877" height="383" key="GridCell.Tab.2.right" timestamp="1609753133345">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="383" key="GridCell.Tab.2.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609753133345" />
     <state x="3064" y="205" width="675" height="536" key="find.popup" timestamp="1609732829634">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="3064" y="205" width="675" height="536" key="find.popup/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609732829634" />
+    <state x="2254" y="180" key="new project wizard" timestamp="1609733047549">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2254" y="180" key="new project wizard/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609733047549" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

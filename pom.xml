@@ -10,8 +10,9 @@
     <modules>
         <module>netty-parent</module>
         <module>java-common</module>
-        <module>nio-parent</module>
+        <module>socket-parent</module>
         <module>rmi-parent</module>
+      <module>jvm-jstack</module>
     </modules>
     <packaging>pom</packaging>
 
