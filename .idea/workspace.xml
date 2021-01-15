@@ -67,26 +67,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eae5fd56-135c-4ec7-90de-97d07af6f062" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jvm-jstack/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jvm-jstack/src/main/java/com/myz/jvm/jstack/ThreadStatusInJstack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket-parent/socket-client/src/main/java/com/myz/socket/client/udp/UdpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/socket-parent/socket-server/src/main/java/com/myz/socket/server/udp/UdpServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/socket-parent/socket-client/src/main/java/com/myz/socket/client/tcp/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/socket-parent/socket-server/src/main/java/com/myz/socket/server/nio/NioServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/socket-parent/socket-server/src/main/java/com/myz/socket/server/tcp/Server.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-common/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio-parent/nio-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/socket-parent/socket-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio-parent/nio-basic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/socket-parent/socket-basic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio-parent/nio-basic/src/main/java/com/myz/com/myz/nio/basic/buffer/BufferDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket-parent/socket-basic/src/main/java/com/myz/com/myz/nio/basic/buffer/BufferDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio-parent/nio-basic/src/main/java/com/myz/com/myz/nio/basic/buffer/BufferDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/socket-parent/socket-basic/src/main/java/com/myz/com/myz/nio/basic/buffer/BufferDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio-parent/nio-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/socket-parent/socket-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio-parent/nio-client/src/main/java/com/myz/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio-parent/nio-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/socket-parent/socket-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio-parent/nio-server/src/main/java/com/myz/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nio-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/socket-parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,13 +134,13 @@
       <recent name="com.myz.netty.server.firstexample" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UdpClient">
-    <configuration name="RmiClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.myz.rmi.client.RmiClient" />
-      <module name="rmi-client" />
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.myz.socket.client.tcp.Client" />
+      <module name="socket-client" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.myz.rmi.client.*" />
+          <option name="PATTERN" value="com.myz.socket.client.tcp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RmiServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.myz.rmi.server.RmiServer" />
-      <module name="rmi-server" />
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.myz.socket.server.tcp.Server" />
+      <module name="socket-server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.myz.rmi.server.*" />
+          <option name="PATTERN" value="com.myz.socket.server.tcp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -216,19 +201,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.RmiServer" />
-      <item itemvalue="Application.RmiClient" />
       <item itemvalue="Application.ThreadStatusInJstack" />
       <item itemvalue="Application.UdpClient" />
       <item itemvalue="Application.UdpServer" />
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.Client" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
         <item itemvalue="Application.UdpClient" />
         <item itemvalue="Application.UdpServer" />
         <item itemvalue="Application.ThreadStatusInJstack" />
-        <item itemvalue="Application.RmiClient" />
-        <item itemvalue="Application.RmiServer" />
       </list>
     </recent_temporary>
   </component>
@@ -274,6 +259,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
@@ -285,38 +271,38 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2685" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609747304715" />
-    <state width="1877" height="383" key="GridCell.Tab.0.bottom" timestamp="1609753289267">
+    <state width="1877" height="383" key="GridCell.Tab.0.bottom" timestamp="1610609362881">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="383" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609753289267" />
-    <state width="1877" height="383" key="GridCell.Tab.0.center" timestamp="1609753289267">
+    <state width="1877" height="383" key="GridCell.Tab.0.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610609362881" />
+    <state width="1877" height="383" key="GridCell.Tab.0.center" timestamp="1610609362881">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="383" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609753289267" />
-    <state width="1877" height="383" key="GridCell.Tab.0.left" timestamp="1609753289267">
+    <state width="1877" height="383" key="GridCell.Tab.0.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610609362881" />
+    <state width="1877" height="383" key="GridCell.Tab.0.left" timestamp="1610609362881">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="383" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609753289267" />
-    <state width="1877" height="383" key="GridCell.Tab.0.right" timestamp="1609753289267">
+    <state width="1877" height="383" key="GridCell.Tab.0.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610609362881" />
+    <state width="1877" height="383" key="GridCell.Tab.0.right" timestamp="1610609362881">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="383" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609753289267" />
-    <state width="1877" height="383" key="GridCell.Tab.1.bottom" timestamp="1609753289141">
+    <state width="1877" height="383" key="GridCell.Tab.0.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610609362881" />
+    <state width="1877" height="383" key="GridCell.Tab.1.bottom" timestamp="1610609362883">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="383" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609753289141" />
-    <state width="1877" height="383" key="GridCell.Tab.1.center" timestamp="1609753289140">
+    <state width="1877" height="383" key="GridCell.Tab.1.bottom/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610609362883" />
+    <state width="1877" height="383" key="GridCell.Tab.1.center" timestamp="1610609362882">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="383" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609753289140" />
-    <state width="1877" height="383" key="GridCell.Tab.1.left" timestamp="1609753289140">
+    <state width="1877" height="383" key="GridCell.Tab.1.center/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610609362882" />
+    <state width="1877" height="383" key="GridCell.Tab.1.left" timestamp="1610609362882">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="383" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609753289140" />
-    <state width="1877" height="383" key="GridCell.Tab.1.right" timestamp="1609753289140">
+    <state width="1877" height="383" key="GridCell.Tab.1.left/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610609362882" />
+    <state width="1877" height="383" key="GridCell.Tab.1.right" timestamp="1610609362882">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="383" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609753289140" />
+    <state width="1877" height="383" key="GridCell.Tab.1.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610609362882" />
     <state width="1877" height="383" key="GridCell.Tab.2.bottom" timestamp="1609753133345">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -333,6 +319,10 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="383" key="GridCell.Tab.2.right/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1609753133345" />
+    <state x="2601" y="261" width="540" height="524" key="StructurePopup" timestamp="1610541055397">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2601" y="261" width="540" height="524" key="StructurePopup/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1610541055397" />
     <state x="3064" y="205" width="675" height="536" key="find.popup" timestamp="1609732829634">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -384,6 +374,41 @@
           <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/rmi/Naming.java</url>
           <line>121</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/socket-parent/socket-client/src/main/java/com/myz/socket/client/tcp/Client.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/socket-parent/socket-client/src/main/java/com/myz/socket/client/tcp/Client.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/socket-parent/socket-client/src/main/java/com/myz/socket/client/tcp/Client.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/socket-parent/socket-client/src/main/java/com/myz/socket/client/tcp/Client.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/socket-parent/socket-server/src/main/java/com/myz/socket/server/tcp/Server.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/socket-parent/socket-server/src/main/java/com/myz/socket/server/tcp/Server.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/socket-parent/socket-server/src/main/java/com/myz/socket/server/tcp/Server.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

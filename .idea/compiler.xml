@@ -6,17 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="jvm-jstack" />
         <module name="socket-api" />
         <module name="netty-api" />
         <module name="socket-basic" />
         <module name="rmi-api" />
         <module name="netty-server" />
-        <module name="socket-client" />
         <module name="netty-client" />
-        <module name="rmi-server" />
         <module name="java-common" />
+        <module name="jvm-jstack" />
+        <module name="rmi-server" />
         <module name="rmi-client" />
+        <module name="socket-client" />
         <module name="socket-server" />
       </profile>
     </annotationProcessing>
