@@ -7,14 +7,14 @@
   <groupId>com.myz</groupId>
   <artifactId>java-project</artifactId>
   <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>netty-parent</module>
-        <module>java-common</module>
-        <module>socket-parent</module>
-        <module>rmi-parent</module>
-      <module>jvm-jstack</module>
-    </modules>
-    <packaging>pom</packaging>
+  <modules>
+      <module>netty-parent</module>
+      <module>java-common</module>
+      <module>socket-parent</module>
+      <module>rmi-parent</module>
+    <module>jvm-jstack</module>
+  </modules>
+  <packaging>pom</packaging>
 
   <name>java-project</name>
   <url>http://www.example.com</url>
