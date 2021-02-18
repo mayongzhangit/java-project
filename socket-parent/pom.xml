@@ -9,10 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>nio-parent</artifactId>
+    <artifactId>socket-parent</artifactId>
     <packaging>pom</packaging>
 
-    <name>nio-parent</name>
+    <name>socket-parent</name>
     <url>http://www.example.com</url>
     <modules>
         <module>socket-basic</module>
@@ -20,8 +20,6 @@
         <module>socket-client</module>
         <module>socket-server</module>
     </modules>
-
-
 
     <dependencies>
         <dependency>

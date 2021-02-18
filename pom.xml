@@ -12,7 +12,7 @@
       <module>java-common</module>
       <module>socket-parent</module>
       <module>rmi-parent</module>
-    <module>jvm-jstack</module>
+      <module>jvm-jstack</module>
   </modules>
   <packaging>pom</packaging>
 

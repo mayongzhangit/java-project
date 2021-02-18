@@ -12,7 +12,9 @@
     <artifactId>java-common</artifactId>
 
     <name>java-common</name>
-    <!-- FIXME change it to the project's website -->
+    <properties>
+
+    </properties>
     <url>http://www.example.com</url>
 
 
