@@ -20,7 +20,7 @@ public class FirstServer {
     public static void main(String[] args) {
 
         // 一般都带有Nio，这里实际为ThreadPoolExecutor
-        EventLoopGroup bossGroup = new NioEventLoopGroup();
+        EventLoopGroup bossGroup = new NioEventLoopGroup(1);
         EventLoopGroup workGroup = new NioEventLoopGroup();
 
         try {
